@@ -42,3 +42,4 @@ $htmlTemplate = @"
 "@
 
 set-content ./bitbindernet.github.io/index.html -value $htmlTemplate
+copy-item -Recurse ./images ./bitbindernet.github.io
