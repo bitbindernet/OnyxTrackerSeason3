@@ -36,10 +36,12 @@ $htmlTemplate = @"
       $images
 
     </div>
-    
+    <p>
+        Come join the discussion on reddit: <link href="https://www.reddit.com/r/Currencytradingcards/">r/Currencytradingcards</link>
+    </p>
   </body>
 </html>
 "@
 
-set-content ./bitbindernet.github.io/index.html -value $htmlTemplate
-copy-item -Recurse ./images ./bitbindernet.github.io
+set-content ./bitbindernet.github.io/index.html -value $htmlTemplate -force
+copy-item -Recurse ./images ./bitbindernet.github.io -force
