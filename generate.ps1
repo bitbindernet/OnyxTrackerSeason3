@@ -41,4 +41,4 @@ $htmlTemplate = @"
 </html>
 "@
 
-set-content index.html -value $htmlTemplate
+set-content ./bitbindernet.github.io/index.html -value $htmlTemplate
