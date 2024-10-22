@@ -48,3 +48,6 @@ $htmlTemplate = @"
 
 set-content ./bitbindernet.github.io/index.html -value $htmlTemplate -force
 copy-item -Recurse ./images ./bitbindernet.github.io -force
+
+set-content ./OnyxTrackerRedux.github.io/index.html -value $htmlTemplate -force
+copy-item -Recurse ./images ./OnyxTrackerRedux.github.io -force
