@@ -37,7 +37,10 @@ $htmlTemplate = @"
 
     </div>
     <p>
-        Come join the discussion on reddit: <link href="https://www.reddit.com/r/Currencytradingcards/">r/Currencytradingcards</link>
+        Come join the discussion on reddit: <a href="https://www.reddit.com/r/Currencytradingcards/">r/Currencytradingcards</a>
+    </p>
+    <p>
+        Website based on the original implementation by: <a href="https://www.reddit.com/user/minajacky/">u/minajacky</a>
     </p>
   </body>
 </html>
